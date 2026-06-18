@@ -9,36 +9,38 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 # Sobre o Nice Store
-_Nice Store_ é um site de vendas (E-Commerce) de produtos elétricos e eletrodomésticos com Sistema Web de Back-Office integrado. 
-_Nice Store_ é o resultado do projeto acadêmico de Sistema Web desenvolvido pelos alunos do _[Centro Universitário Senac](https://www.sp.senac.br/centro-universitario-senac-santo-amaro 'Site Oficial Senac')_ ao decorrer da matéria _**"Projeto Integrador - PI" do 4º semestre.**_ 
+## Nice Store
 
-- Realiza _Pedidos de Vendas_ fictícios.
-- Engloba todos os pontos cruciais de um _Sistema Web._
-- Utiliza padrões de Arquitetura de Sistemas Web desde o _EndPoint_ até inserção/alteração no _Banco de Dados_.
+Sistema de E-Commerce desenvolvido com Java e Spring Boot, composto por uma loja virtual para clientes e um painel administrativo (Backoffice) para gestão de usuários, pedidos e estoque.
 
- 
-<img src="files-docs/img/pagina-principal.png" width=100%>
-<figcaption>Imagem da tela inicial do Site</figcaption>
+O projeto foi desenvolvido durante o curso de Análise e Desenvolvimento de Sistemas do Centro Universitário SENAC, aplicando conceitos de arquitetura MVC, APIs REST, banco de dados relacional e metodologias ágeis.
 
-## O Projeto - Desenvolvimento de Sistemas Orientado a Web.
+### Principais funcionalidades
 
-O objetivo inicial do projeto é desenvolver um site E-Commerce de vendas de produtos com Sistema de Backoffice integrado. Para atender o objetivo proposto os alunos devem utilizar todo o conhecimento adquirido durante o curso de _Análise de Desenvolvimento de Sistemas_, entre elas estão algumas como:
- - Utilizar a linguagem **Java** com framework **SpringBoot** no Back-End;
- - Utilizar o padrão de arquitetura **Model View Controller - MVC**;
- - Disponibilizar uma interface Front-End para interação com Usuário;
- - Utilizar Metodologia ágil **Scrum**.
- 
-Na entrega final, o projeto de Sistema E-Commerce deve atender a uma lista de requisitos e funcionalidades previamente descritas pelo instrutor em forma de _Backlog de Produto_, a cada funcionalidade que o Sistema atenda com sucesso, o grupo receberá os pontos como nota final da matéria. Em resumo, os requisitos são:
-
-- O Sistema deve ser capaz de efetuar um _login_ de `Administrador` no `Back-Office` e com esse _login_, `criar`, `alterar`, `salvar` e `excluir` perfis do tipo `Administrador`/`Estoquista`;
-- O Sistema deve ser capaz de efetuar um _login_ de `Estoquista` no `Back-Office` e com esse _login_, _visualizar_ e `alterar` status de pedidos dos clientes;
-- O `Cliente` deve ter a possibilidade de _visualizar e escolher_ produtos na tela inicial e colocá-los no `carrinho` (sem que esteja previamente logado);
-- O `Cliente` deve criar um `cadastro` para concluir seu `pedido`, caso já tenha um cadastro ativo, deve _logar_ para concluir o seu `pedido`.
-- Além de criar o `cadastro`, o `Cliente` deve ter a possibilidade de `alterar` determinadas informações do `cadastro` e adicionar `endereços`.
-- Durante o processo de compra, o `Cliente` logado deve passar por todas as etapas de conclusão de pedido: escolher `produto` e colocar produto no `carrinho`, adicionar um `endereço` fictício de entrega, adicionar `pagamento` fictício, `visualizar` um resumo e detalhes do pedido na tela de `checkout`.
-- `Cliente` deve _visualizar_ uma `lista de pedidos` realizados e seus detalhes dentro do seu `perfil`.
+* Cadastro e autenticação de usuários
+* Catálogo de produtos
+* Carrinho de compras
+* Processo de checkout
+* Gestão de pedidos
+* Painel administrativo
+* Controle de estoque
+* Gerenciamento de usuários
+* Integração com banco de dados MySQL
+* Arquitetura MVC utilizando Spring Boot
 
 Outro ponto importante que o Projeto disponibiliza é a experiência para aluno ao mercado de trabalho, pois realiza o dia-a-dia real de uma aplicação. [_Mais sobre o Projeto Integrador do Senac_](../senac-NICE/files-docs/Projeto-Integrador.md).
+## Tecnologias Utilizadas
+
+| Camada         | Tecnologia             |
+| -------------- | ---------------------- |
+| Backend        | Java 17                |
+| Framework      | Spring Boot            |
+| Arquitetura    | MVC                    |
+| Banco de Dados | MySQL                  |
+| Frontend       | HTML, CSS e JavaScript |
+| API            | REST                   |
+| Gerenciamento  | Trello                 |
+| Metodologia    | Scrum                  |
 
 
 # Ferramentas Utilizadas
@@ -46,6 +48,16 @@ Outro ponto importante que o Projeto disponibiliza é a experiência para aluno 
 - **Framework:** Java Springboot;
 - **Banco de Dados:** MySQL;
 - **Front-End:** HTML/CSS/JavaScript;
+
+## Arquitetura
+
+O sistema foi desenvolvido seguindo o padrão MVC (Model-View-Controller).
+
+Fluxo da aplicação:
+
+Cliente → Interface Web → Controllers → Services → Repository → MySQL
+
+O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
 
 Para executar a metodologia ágil _**Scrum**_ foi utilizada a plataforma _**Trello**_ como _To Do List_ e gerenciamento das _Sprints._
@@ -62,6 +74,18 @@ Separamos uma lista de links para informações sobre o desenvolvimento do proje
 - [Modelagem e Estrutura do Banco de Dados]().
 - [Documentação]().
 
+## Aprendizados
+
+Durante o desenvolvimento foram aplicados:
+
+- Spring Boot
+- MVC
+- APIs REST
+- MySQL
+- Scrum
+- Git e GitHub
+- Trabalho em equipe
+
 # Contribuintes
 Nice Store foi desenvolvido em grupo pelos integrantes:
 - Igor Felipe da Silva (Este Perfil);
@@ -70,4 +94,4 @@ Nice Store foi desenvolvido em grupo pelos integrantes:
 - [Nathalia Narumi](https://github.com/nathalianarumi);
 
 # Licença
-Este projeto possui licença XXX que permite a visualização e utilização para fins educacionais. Não pode ser revendido ou comercializado.
+Este projeto possui 'MIT License' que permite a visualização e utilização para fins educacionais.
