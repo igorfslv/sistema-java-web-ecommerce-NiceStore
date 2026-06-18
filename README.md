@@ -78,7 +78,7 @@ Durante o desenvolvimento foram aplicados:
 - Trabalho em equipe
 
 ## Contribuintes
-Nice Store foi desenvolvido em grupo pelos integrantes:
+Nice Store foi desenvolvido em equipe pelos integrantes:
 - Igor Felipe da Silva (Este Perfil);
 - [Guilherme Matheus](https://github.com/Domiuau);
 - [Eliana Lima](https://github.com/eliana-eml);
