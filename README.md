@@ -9,7 +9,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 # Sobre o Nice Store
-## Nice Store
+## O Sistema
 
 Sistema de E-Commerce desenvolvido com Java e Spring Boot, composto por uma loja virtual para clientes e um painel administrativo (Backoffice) para gestão de usuários, pedidos e estoque.
 
