@@ -42,13 +42,6 @@ Outro ponto importante que o Projeto disponibiliza é a experiência para aluno 
 | Gerenciamento  | Trello                 |
 | Metodologia    | Scrum                  |
 
-
-# Ferramentas Utilizadas
-- **Back-End :** Linguagem Java 17 e Java Script para integração de API Rest;
-- **Framework:** Java Springboot;
-- **Banco de Dados:** MySQL;
-- **Front-End:** HTML/CSS/JavaScript;
-
 ## Arquitetura
 
 O sistema foi desenvolvido seguindo o padrão MVC (Model-View-Controller).
@@ -59,13 +52,12 @@ Cliente → Interface Web → Controllers → Services → Repository → MySQL
 
 O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
-
 Para executar a metodologia ágil _**Scrum**_ foi utilizada a plataforma _**Trello**_ como _To Do List_ e gerenciamento das _Sprints._
 
-# Como executar Nice Store
+## Como executar Nice Store
 Se você tem interesse em instalar e visualizar o projeto na sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou você pode visualizar uma demonstração em [qqui]().
 
-# Documentação
+## Documentação
 Separamos uma lista de links para informações sobre o desenvolvimento do projeto e detalhes técnicos do Sistema: 
 - [SprintPlaning](./files-docs/Project/Sprints.md 'Mais Detalhes Sprints').
 - [Backlog do Produto](./files-docs/Project/Backlog.md 'Mais detalhes Backlog').
@@ -86,12 +78,12 @@ Durante o desenvolvimento foram aplicados:
 - Git e GitHub
 - Trabalho em equipe
 
-# Contribuintes
+## Contribuintes
 Nice Store foi desenvolvido em grupo pelos integrantes:
 - Igor Felipe da Silva (Este Perfil);
 - [Guilherme Matheus](https://github.com/Domiuau);
 - [Eliana Lima](https://github.com/eliana-eml);
 - [Nathalia Narumi](https://github.com/nathalianarumi);
 
-# Licença
+## Licença
 Este projeto possui 'MIT License' que permite a visualização e utilização para fins educacionais.
