@@ -52,10 +52,8 @@ Cliente → Interface Web → Controllers → Services → Repository → MySQL
 
 O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
-Para executar a metodologia ágil _**Scrum**_ foi utilizada a plataforma _**Trello**_ como _To Do List_ e gerenciamento das _Sprints._
-
 ## Como executar Nice Store
-Se você tem interesse em instalar e visualizar o projeto na sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou você pode visualizar uma demonstração em [qqui]().
+Se você tem interesse em instalar e visualizar o projeto na sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou você pode visualizar uma demonstração em [aqui]().
 
 ## Documentação
 Separamos uma lista de links para informações sobre o desenvolvimento do projeto e detalhes técnicos do Sistema: 
