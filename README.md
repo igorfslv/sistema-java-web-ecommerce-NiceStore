@@ -29,7 +29,7 @@ O projeto foi desenvolvido durante o curso de Análise e Desenvolvimento de Sist
 * Arquitetura MVC utilizando Spring Boot
 
 Outro ponto importante que o Projeto disponibiliza é a experiência para aluno ao mercado de trabalho, pois realiza o dia-a-dia real de uma aplicação. [_Mais sobre o Projeto Integrador do Senac_](../senac-NICE/files-docs/Projeto-Integrador.md).
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 | Camada         | Tecnologia             |
 | -------------- | ---------------------- |
@@ -42,7 +42,7 @@ Outro ponto importante que o Projeto disponibiliza é a experiência para aluno 
 | Gerenciamento  | Trello                 |
 | Metodologia    | Scrum                  |
 
-## Arquitetura
+# Arquitetura
 
 O sistema foi desenvolvido seguindo o padrão MVC (Model-View-Controller).
 
