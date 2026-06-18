@@ -15,6 +15,8 @@ Sistema de E-Commerce desenvolvido com Java e Spring Boot, composto por uma loja
 
 O projeto foi desenvolvido durante o curso de Análise e Desenvolvimento de Sistemas do Centro Universitário SENAC, aplicando conceitos de arquitetura MVC, APIs REST, banco de dados relacional e metodologias ágeis.
 
+Outro ponto importante que o Projeto disponibiliza é a experiência para aluno ao mercado de trabalho, pois realiza o dia-a-dia real de uma aplicação. [_Mais sobre o Projeto Integrador do Senac_](https://espacodocente.senac.br/wp-content/uploads/2024/04/DocTec4_Integrador_2022.pdf).
+
 ### Principais funcionalidades
 
 * Cadastro e autenticação de usuários
@@ -28,7 +30,6 @@ O projeto foi desenvolvido durante o curso de Análise e Desenvolvimento de Sist
 * Integração com banco de dados MySQL
 * Arquitetura MVC utilizando Spring Boot
 
-Outro ponto importante que o Projeto disponibiliza é a experiência para aluno ao mercado de trabalho, pois realiza o dia-a-dia real de uma aplicação. [_Mais sobre o Projeto Integrador do Senac_](../senac-NICE/files-docs/Projeto-Integrador.md).
 ### Tecnologias Utilizadas
 
 | Camada         | Tecnologia             |
