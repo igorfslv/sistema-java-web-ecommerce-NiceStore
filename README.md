@@ -49,7 +49,7 @@ O sistema foi desenvolvido seguindo o padrão MVC (Model-View-Controller).
 
 Fluxo da aplicação:
 
-Cliente → Interface Web → Controllers → Services → Repository → MySQL
+_Cliente → Interface Web → Controllers → Services → Repository → MySQL_
 
 O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
