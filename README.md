@@ -54,7 +54,7 @@ _Cliente → Interface Web → Controllers → Services → Repository → MySQL
 O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
 ## Como executar Nice Store
-Se você tem interesse em instalar e visualizar o projeto na sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou você pode visualizar uma demonstração em [aqui]().
+Para clonar o repositório e visualizar o projeto e sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou acessar [Videos e Prints]().
 
 ## Documentação
 Separamos uma lista de links para informações sobre o desenvolvimento do projeto e detalhes técnicos do Sistema: 
