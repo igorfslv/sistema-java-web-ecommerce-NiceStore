@@ -1,6 +1,6 @@
 
 <div style="display: flex; justify-content: center;">
- <img src="front/nice-store/img/img-logotipo-branco.png" width=150 class=img alt=Logo Nice Store>
+ <img src="front/nice-store/img/img-logotipo-branco.png" width=100% class=img alt=Logo Nice Store>
  </div>
 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -11,9 +11,9 @@
 # Sobre o Nice Store
 ## O Sistema
 
-Sistema de E-Commerce desenvolvido com Java e Spring Boot, composto por uma loja virtual para clientes e um painel administrativo (Backoffice) para gestão de usuários, pedidos e estoque.
+Sistema de E-Commerce desenvolvido com **Java** e **Spring Boot**, composto por uma loja virtual para clientes e um painel administrativo (Backoffice) para gestão de usuários, pedidos e estoque.
 
-O projeto foi desenvolvido durante o curso de Análise e Desenvolvimento de Sistemas do Centro Universitário SENAC, aplicando conceitos de arquitetura MVC, APIs REST, banco de dados relacional e metodologias ágeis.
+O projeto foi desenvolvido durante o curso de _Análise e Desenvolvimento de Sistemas do Centro Universitário **SENAC**_, aplicando conceitos de arquitetura MVC, APIs REST, banco de dados relacional e metodologias ágeis.
 
 Outro ponto importante que o Projeto disponibiliza é a experiência para aluno ao mercado de trabalho, pois realiza o dia-a-dia real de uma aplicação. [_Mais sobre o Projeto Integrador do Senac_](https://espacodocente.senac.br/wp-content/uploads/2024/04/DocTec4_Integrador_2022.pdf).
 
@@ -54,13 +54,13 @@ _Cliente → Interface Web → Controllers → Services → Repository → MySQL
 O Backoffice e a Loja Virtual compartilham a mesma camada de negócios e banco de dados, permitindo gerenciamento centralizado de produtos, usuários e pedidos.
 
 ## Como executar Nice Store
-Para clonar o repositório e visualizar o projeto e sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou acessar [Videos e Prints]().
+Para clonar o repositório e visualizar o projeto e sua execução disponibilizamos as [Instruções de Uso](./files-docs/Uso.md) ou acessar [Telas]().
 
 ## Documentação
 Separamos uma lista de links para informações sobre o desenvolvimento do projeto e detalhes técnicos do Sistema: 
 - [SprintPlaning](./files-docs/Project/Sprints.md 'Mais Detalhes Sprints').
 - [Backlog do Produto](./files-docs/Project/Backlog.md 'Mais detalhes Backlog').
-- [Imagens das Telas]().
+- Imagens das [Telas]().
 - [API e EndPoints]().
 - [Modelagem e Estrutura do Banco de Dados]().
 - [Documentação]().
